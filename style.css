@@ -1,0 +1,128 @@
+/* apply font to all document  */
+body {
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  background-image: url('./images/pattern-background-desktop.svg');
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.card {
+  width: 400px;
+  height: 600px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.top-image {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-detail {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+.order-summary {
+  margin-top: 35px;
+
+  text-align: center;
+}
+
+.order-summary > h1 {
+  font-weight: 900;
+}
+
+.plan-selector {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+
+.plan-selector > * {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.plan-selector > img {
+  width: 48px;
+  height: 48px;
+  margin-left: 20px;
+}
+
+.icon-text {
+  margin-left: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+.icon-text > div {
+  margin-left: 15px;
+}
+.icon-text > div > p,
+.icon-text > div > h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.change-link {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.change-link:hover {
+  color: hsl(245, 50%, 58%);
+  text-decoration: none;
+}
+
+.actions {
+  margin-top: 30px;
+}
+
+.btn {
+  outline: none;
+  margin-bottom: 3px;
+  border-radius: 9px;
+  border: none;
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.proceed {
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+}
+.proceed:hover {
+  background-color: hsl(245, 50%, 58%);
+}
+
+.cancel {
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+  color: black;
+}
